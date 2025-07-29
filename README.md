@@ -1,11 +1,11 @@
 # Predict recidivism rates in Wisconsin counties
-This projects models recidivism rate per county using Poisson Regression with an offset.
+This project models county-level recidivism rates in Wisconsin using Poisson regression with an offset term to account for population size.
 
 ## Goals
-1. Predict recidivism rates across counties in WI.
-2. Analyze the effects of individual factors, county unemployment rate, and county health factors to recidivism.
-3. Find relevant predictors to an increased risk in recidivating.
-4/ Assess model fit and implement diagnostic tests.
+1. Predict recidivism rates across Wisconsin counties using available demographic and socioeconomic data.
+2. Analyze the impact of individual-level characteristics, county unemployment rates, and county health indicators on recidivism.
+3. Identify significant predictors associated with an increased risk of recidivism.
+4. Evaluate model performance using fit metrics and conduct diagnostic testing to assess assumptions and robustness.
 
 ## Data Source
 1. WCLD: Curated Large Dataset of Criminal Cases from Wisconsin Circuit Courts
