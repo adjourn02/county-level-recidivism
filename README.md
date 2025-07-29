@@ -41,6 +41,6 @@ Even after model adjustments, model does not fit the data indicating a non-param
 | MSE (Mean Squared Error)         | 6,844.17    |
 | MAE (Mean Absolute Error)        | 40.64       |
 | MAPE (Mean Absolute Percentage Error) | 14.33%      |
-| PM (Prediction Match Rate)       | 0.00065     |
+| PM (Precision measure)       | 0.00065     |
 | R-squared                        | 0.9572      |
 | Adjusted R-squared               | 0.9510      | 
