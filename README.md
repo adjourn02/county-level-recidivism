@@ -24,7 +24,7 @@ This project models county-level recidivism rates in Wisconsin using Poisson reg
 
 ### Pairs Plot
 ![pairs_plot](images/pairs_plot.png)
-From the plots in the top row, most variables show a non-linear relationship with recid_rate. Also, avg_prior_misdemeanor and avg_prior_felony have a strong linear relationship.
+From the plots in the top row, most variables show a non-linear relationship with `recid_rate`. Also, `avg_prior_misdemeanor` and `avg_prior_felony` have a strong linear relationship.
 
 ### Year vs Recidivism Rate
 <img src="images/boxplot_year.png" alt="year_boxplot" width="400">
