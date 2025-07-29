@@ -26,7 +26,7 @@ This projects models recidivism rate per county using Poisson Regression with an
 ![pairs_plot](images/pairs_plot.png)
 
 ### Year vs Recidivism Rate
-![year_boxplot](images/boxplot_year.png)
+<img src="images/boxplot_year.png" alt="year_boxplot" width="600">
 
 ### County vs Recidivism Rate
 ![county_boxplot](images/boxplot_county.png)
