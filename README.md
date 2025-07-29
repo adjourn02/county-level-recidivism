@@ -32,4 +32,15 @@ The boxes are overlapping making it hard to determine if the means are significa
 
 ### County vs Recidivism Rate
 ![county_boxplot](images/boxplot_county.png)
-Most of the boxes are not overlapping which means there is likely significant different means among groups.
+Most of the boxes are not overlapping indicating there is likely significant different means among groups.
+
+## Prediction
+Even after model adjustments, model does not fit the data indicating a non-parametric model is more appropriate to use. However, in terms of predictive power, the poisson model performs well with the following evaluation scores on a test dataset:
+| Metric              | Score       |
+|---------------------|-------------|
+| MSE (Mean Squared Error)         | 6,844.17    |
+| MAE (Mean Absolute Error)        | 40.64       |
+| MAPE (Mean Absolute Percentage Error) | 14.33%      |
+| PM (Prediction Match Rate)       | 0.00065     |
+| R-squared                        | 0.9572      |
+| Adjusted R-squared               | 0.9510      | 
